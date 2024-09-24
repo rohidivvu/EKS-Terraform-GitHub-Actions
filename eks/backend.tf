@@ -10,7 +10,7 @@ terraform {
     bucket         = "my-ews-zinkle1"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "lockFiles"
+    dynamodb_table = "lockfiles"
     encrypt        = true
   }
 }
