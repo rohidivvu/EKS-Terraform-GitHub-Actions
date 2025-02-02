@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "my-new-eks"
+    bucket         = "my-ews-zinkle1"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "lock-files"
